@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head><title>Utkarsh Singh</title></head>
+<style>
+body{
+  background-image: url("https://image.freepik.com/free-photo/dirty-pattern-paint-room-block_1203-5709.jpg");
+       
+}
+.first-row{
+     background-color: black;
+     color: rgb(190,190,190);
+}
+.button{
+     background-color: rgb(50,50,50);
+     color: rgb(190,190,190);
+     border-radius: 10px;
+     border-width: 5px;
+     border-color: rgb(190,190,190);
+}
+.main{
+     background-color: rgb(40,40,40);
+     margin-left: 150px;
+     margin-right: 150px;
+     color: rgb(225,225,225);
+     font-family: Comic Sans MS;
+}
+.divs{
+     padding-top: 100px;
+     padding-bottom: 100px;
+}
+.image-padding{
+     padding-top: 20px;
+     padding-bottom: 10px;
+}
+h1{
+     background-color: rgb(40,40,40);
+     margin-left:150px;
+     margin-right: 150px;
+     margin-bottom:-5px;
+     font-family: forte;
+}
+.large-image{
+     width: 300px;
+     display: block;
+     margin: auto;
+}
+.portfolio{
+     color: rgb(230,230,230);
+     font-family: forte;
+     background-color: black;
+     margin-top: 5px;
+}
+.port{
+     margin-left: 150px;
+     margin-right: 150px;
+     background-color: black;
+     color: white;
+     font-family: Mongolian Baiti;
+}
+.pad{
+     padding-top: 120px;
+     padding-bottom: 50px;
+}
+.end{
+     background-color: rgb(0,0,0);
+     color: rgb(255,255,255);
+     font-family: Algerian;
+}
+.fpadding{
+     padding-top: 100px;
+     padding-bottom: 100px;
+}
+</style>
+
+<div class="row first-row">
+  <div class="col-md-8">
+    <h3>Welcome to my Portfolio</h3>
+  </div>
+  <div class="col-md-1">
+     <a href="#Home"><button class="btn button">Home</button></a>
+     </div>
+     <div class="col-md-1">
+     <a href="#Portfolio"><button class="btn button">Portfolio</button></a>
+     </div>
+     <div class="col-md-2">
+         &nbsp;&nbsp;&nbsp;<a href="#Contact"><button class="btn button">Contact</button></a>
+  </div>
+</div>
+<h1 style="color: rgb(180,180,180)" align="center" id="Home">Utkarsh Singh</h1>
+<div class="row main">
+  <div class="col-md-4 divs">
+    <h4 align="center">Learning to code for Front-End Development and aspiring to be a part-time web developer</h4>
+  </div>
+  <div class="col-md-4 image-padding">
+    <img class="large-image" src="https://scontent.fbom3-1.fna.fbcdn.net/v/t1.0-9/20431681_1405726092829626_3470677318151742631_n.jpg?oh=1813f0a30154f4e71174cbabed8905f4&oe=5A7D9AA9">
+    <!--You have to add your pic here-->
+  </div>
+  <div class="col-md-4 divs">
+    <h4 align="center">Computer Science Student at NIT Hamirpur.
+      Learning to code in C. Part of the App Team.</h4>
+  </div>
+</div>
+<h1 class="text-center portfolio" id="Portfolio">Portfolio</h1>
+ <div class="row port" id="row1">
+   <div class="col-md-4">
+          <img class="large-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ANFTQ04a0oebEQac7_MR2MHA3kLhnH5Y42S_afC9f20GbsCjzQ"><!--Picture to be added- Mahatma Gandhi page screenshot-->
+   </div>
+   <div class="col-md-8 pad">
+        <h4 align="center"><u>Built a Tribute Page</u></h4>
+           <h4>Designed a Tribute page about the Father of the Indian Nation- Mahatma Gandhi. It contains a well drafted timeline of his life, and quotes on and by him.
+   </div>
+  </div>
+  <div class="row port" id="row2">
+       <div class="col-md-8 pad">
+            <h4 align="center"><u>3 x 3 Matrix Calculator</u></h4>
+            <h4>Made a program in C language to find the inverse of a matrix and also to multiply multiple matrices. The application finds a lot of usage in the life of students of engineering colleges and schools who are fed up of pointless marix calculations in the curriculum. :-P<!-- See if you can add the source code here--></h4>
+       </div>
+       <div class="col-md-4">
+            <img class="large-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ANFTQ04a0oebEQac7_MR2MHA3kLhnH5Y42S_afC9f20GbsCjzQ"><!--Screenshot of Matrix app-->
+       </div>
+      </div>
+ <div class="row port" id="row3">
+      <div class="col-md-4">
+           <img class="large-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ANFTQ04a0oebEQac7_MR2MHA3kLhnH5Y42S_afC9f20GbsCjzQ"><!--Screenshot of java school project app-->
+      </div>
+      <div class="col-md-8 pad">
+           <h4 align="center"><u>GK Quotient Program</u></h4>
+           <h4>Designed and programmed a basic program in JAVA that asks general knowledge questions from various fields and computes your quotient in those fields, giving your aptitude in those fields.</h4>
+      </div>
+</div>
+ <h1 class="text-center end" id="Contact">Contact</h1>
+ <div class="row main">
+      <div class="col-md-6">
+           <h5>You can find me on:</h5>
+           <h5>Facebook:<a href="https://www.facebook.com/utkarshsingh369" target="blank"> Utkarsh Singh </h5></a>
+           <h5>Gmail:<a href="https://gmail.com" target="blank"> utkarshsingh369@gmail.com</h5></a>
+      </div>
+      <div class="col-md-6">
+           <h5>Name:  &nbsp;&nbsp; <input type: "text" placeholder:"Enter your name here"></h5>
+           <h5>Email: &nbsp;&nbsp;&nbsp; <input type: "text" placeholder: "Enter your email id"></h5>
+           <h5>Contact: <input type: "number" placeholder: "Enter your contact number"></h5>
+           <button type="submit">Submit</button>
+      </div>
+</div>
+      <h5 class="fpadding" align="center">Powered by: <a href="https://www.freecodecamp.org" target="blank">freecodecamp.org</a></h5>
+</html>
